@@ -1,0 +1,1 @@
+# ImageAI Next.js app
