@@ -67,7 +67,8 @@ const Sidebar = () => {
               })}
 
               <li className="flex-center cursor-pointer  p-1 ">
-                <UserButton  showName />
+                <UserButton afterSignOutUrl='/' showName />
+                
               </li>
             </ul>
           </SignedIn>
