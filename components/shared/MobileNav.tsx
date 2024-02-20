@@ -16,7 +16,7 @@ const MobileNav = () => {
 
       <Link href="/" className="flex items-center gap-2 md:py-2">
         <Image src="/logo-icon.png" alt="logo" width={28} height={28} />
-        <p className="text-purple-500 font-[800] text-3xl">ImageAI</p>
+        <p className="text-purple-500 font-[800] text-3xl gradientText1">ImageAI</p>
       </Link>
 
       <nav className="flex gap-2">
@@ -31,7 +31,7 @@ const MobileNav = () => {
               <>
               <Link href="/" className="flex items-center gap-2 md:py-2">
                 <Image src="/logo-icon.png" alt="logo" width={20} height={20} />
-                <p className="text-purple-500 font-[800] text-2xl">ImageAI</p>
+                <p className="text-purple-500 font-[800] text-2xl gradientText1">ImageAI</p>
               </Link>
 
               <ul className="header-nav_elements">

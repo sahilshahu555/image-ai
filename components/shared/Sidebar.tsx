@@ -11,11 +11,11 @@ const Sidebar = () => {
   const pathname = usePathname();
 
   return (
-    <aside className="sidebar">
-      <div className="flex size-full flex-col gap-4">
-        <Link href="/" className="sidebar-logo">
+    <aside className="sidebar ">
+      <div className="flex size-full flex-col gap-4 ">
+        <Link href="/" className="sidebar-logo ">
           <Image src="/logo-icon.png" alt="logo" width={28} height={28} />
-          <p className="text-purple-500 font-[800] text-3xl">ImageAI</p>
+          <p className="text-purple-500 font-[900] text-4xl gradientText1 p-1">ImageAI</p>
         </Link>
 
         <nav className="sidebar-nav ">
