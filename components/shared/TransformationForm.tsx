@@ -136,7 +136,8 @@ const TransformationForm = ({ action, data = null, userId, type, creditBalance, 
 
   const onSelectFieldHandler = (value: string, onChangeField: (value: string) => void) => {
     const imageSize = aspectRatioOptions[value as AspectRatioKey]
-
+    setIsTransforming(true)
+     
     setImage((prevState: any) => ({
       ...prevState,
       aspectRatio: imageSize.aspectRatio,
@@ -145,6 +146,9 @@ const TransformationForm = ({ action, data = null, userId, type, creditBalance, 
     }))
 
     setNewTransformation(transformationType.config);
+
+    setIsTransforming(false)
+
 
     return onChangeField(value)
   }
@@ -176,7 +180,7 @@ const TransformationForm = ({ action, data = null, userId, type, creditBalance, 
       await updateCredits(userId, creditFee)
     })
 
-    setIsTransforming(false)
+    // setIsTransforming(false)
 
   }
 

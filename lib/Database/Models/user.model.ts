@@ -33,7 +33,7 @@ const UserSchema = new Schema({
   },
   creditBalance: {
     type: Number,
-    default: 30,
+    default: 20,
   },
 });
 
