@@ -19,8 +19,12 @@ const Credits = async () => {
     <>
       <Header
         title="Buy Credits"
-        subTitle="Choose a credit package that suits your needs!"
+        subTitle="Choose a credit package that suits your needs! "
       />
+       <p>Please use card no. :- 4000 0035 6000 0008</p>
+       <p>Use 12/24 as a expiry date and cvv as 123</p>
+
+       
 
       <section>
         <ul className="credits-list">
